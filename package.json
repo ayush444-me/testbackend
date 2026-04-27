@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A basic server",
+  "main": "Test_01.js",
+  "scripts": {
+    "start": "node Test_01.js"
+  },
+  "keywords": [
+    "node",
+    "test"
+  ],
+  "author": "Ayush Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
