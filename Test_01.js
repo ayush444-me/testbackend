@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 app.get('/Home',  (req, res) => {
     res.send('Welcome Home Page')
 })
+app.get('/Contact',  (req, res) => {
+    res.send("My Number is 8976546789")
+})
 
 app.listen(process.env.PORT, () => {
     console.log(`${port}`)
